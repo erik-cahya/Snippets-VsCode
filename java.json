@@ -1,0 +1,20 @@
+{
+    "public static void main": {
+        "prefix": "psvm",
+        "body": [
+            "public static void main(String[] args){$1}",
+        ],
+    },
+    "system.out.println": {
+        "prefix": "sout",
+        "body": [
+            "System.out.println($1);",
+        ],
+    },
+    "system.out.print": {
+        "prefix": "soutt",
+        "body": [
+            "System.out.print($1);",
+        ],
+    }
+}
